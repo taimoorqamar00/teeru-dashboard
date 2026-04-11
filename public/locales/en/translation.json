@@ -1,0 +1,227 @@
+{
+  "signIn": {
+    "email": "Email",
+    "password": "Password",
+    "title": "Login to Account!",
+    "info": "Please enter your email and password to continue.",
+    "forgot_password": "Forgot Password?",
+    "sign_in": "Sign In"
+  },
+  "fortgotPassword": {
+    "email": "Email",
+    "title": "Forget password",
+    "info": "Enter your email address to ger a verification code for resetting your password.",
+    "back": "Back to log in",
+    "button": "Get OTP"
+  },
+  "verifyOTP": {
+    "title": "Verify OTP",
+    "info": "Please check your email. We have sent a code",
+    "button": "Verify OTP",
+    "didnt_receive": "Didn’t receive code?",
+    "resend": "Click to resend"
+  },
+  "updatePassword": {
+    "title": "Set new password",
+    "button": "Change Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password"
+  },
+  "sidebar": {
+    "overview": "overview",
+    "users": "Users",
+    "category": "Category",
+    "event": "Event",
+    "review": "Review",
+    "earning": "Earning",
+    "profile": "Profile",
+    "setting": "Setting",
+    "contact-us": "Contact Us",
+    "promotion": "Promotion",
+    "change-password": "Change Password",
+    "logout": "Logout"
+  },
+  "topbar": {
+    "see_more": "See more"
+  },
+  "dashboard": {
+    "total_user": "Total User",
+    "total_earning": "Total Earning",
+    "user_ratio": "Users ratio",
+    "users": "Users",
+    "earning": "Earning",
+    "recent_activity": "Recent Activity",
+    "view_all": "View all",
+    "recent_all_users": "Recent All Users"
+  },
+  "user_table": {
+    "full_name": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "gender": "Gender",
+    "role": "Role",
+    "joining_date": "Joining Date",
+    "action": "Action"
+  },
+  "user_details": {
+    "personal_information": "Personal Information",
+    "user_details": "User Details",
+    "see_all_details": "See all details about",
+    "full_name": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "gender": "Gender",
+    "role": "Role",
+    "remove_admin": "Remove Admin",
+    "make_admin": "Make Admin",
+    "title": "Are You Sure To",
+    "remove_text": "Remove This User From Admin",
+    "make_text": "Make This User As Admin",
+    "type": "Type",
+    "to_confirm": "to confirm your action",
+    "confirm": "Confirm"
+  },
+  "category": {
+    "categories": "Categories",
+    "add_category": "Add Category",
+    "action": "Action"
+  },
+
+  "category_table": {
+    "category_name": "Category Name",
+    "category_image": "Category Image",
+    "action": "Action"
+  },
+  "event": {
+    "events": "Events",
+    "add_event": "Create Event"
+  },
+  "event_form": {
+    "event_image": "Event Image",
+    "event_name": "Event Name",
+    "category": "Category",
+    "date": "Date",
+    "select_time": "Select Time",
+    "location": "Location",
+    "head_to_head": "Head to Head",
+    "head_to_head_placeholder": "Enter head to head details",
+    "tribune": "Price",
+    "annexe_loge": "Annexe Loge",
+    "loge_vip": "Loge VIP",
+    "loge_vvip": "Loge VVIP",
+    "service_fee": "Service Fee",
+    "processing_fee": "Processing Fee",
+    "event_name_placeholder": "Enter event name",
+    "category_placeholder": "Enter category",
+    "date_placeholder": "Select event date",
+    "select_time_placeholder": "Select event time",
+    "location_placeholder": "Enter location",
+    "tribune_heading": "Tribune",
+    "annexeLoge_heading": "Loge Annexe",
+    "logeVVIP_heading": "Loge VVIP",
+    "logeVIP_heading": "Loge VIP",
+    "tribune_placeholder": "Enter tribune Price",
+    "annexe_loge_placeholder": "Enter annexe loge details",
+    "loge_vip_placeholder": "Enter loge VIP details",
+    "loge_vvip_placeholder": "Enter loge VVIP details",
+    "service_fee_placeholder": "Enter service fee",
+    "processing_fee_placeholder": "Enter processing fee",
+    "create": "Create",
+    "update": "Update"
+  },
+  "event_details": {
+    "title": "Event Details",
+    "subtitle": "See all details about {{name}}",
+    "information": "Information",
+    "event_name": "Event Name",
+    "category": "Category",
+    "date": "Date",
+    "time": "Time",
+    "location": "Location",
+    "ticket_prices": "Ticket Prices",
+    "tribune": "Tribune",
+    "annexe_loge": "Annexe Loge",
+    "loge_vip": "Loge VIP",
+    "loge_vvip": "Loge VVIP"
+  },
+  "event_table": {
+    "event_name": "Event Name",
+    "category": "Category",
+    "date_time": "Date & Time",
+    "location": "Location",
+    "head_to_head": "Head to Head",
+    "ticket_prices": "Ticket Prices",
+    "service_fee": "Service Fee",
+    "processing_fee": "Processing Fee",
+    "action": "Action"
+  },
+  "review_table": {
+    "uid": "UID",
+    "full_name": "Full Name",
+    "email": "Email",
+    "date": "Date",
+    "rating": "Rating",
+    "review": "Review",
+    "action": "Action"
+  },
+  "review_detail": {
+    "feedback": "User Feedback",
+    "see_all_details": "See full details feedback from jolarol"
+  },
+  "transaction_table": {
+    "uid": "#UID",
+    "full_name": "Full Name",
+    "email": "Email",
+    "event_name": "Event Name",
+    "amount": "Amount",
+    "transaction_id": "Transaction ID",
+    "payment_status": "Payment Status",
+    "action": "Action"
+  },
+  "earning_details": {
+    "title": "Earning Details",
+    "see_full_details": "See full details earning from jolarol",
+    "name": "Name",
+    "email": "Email",
+    "event_name": "Event Name",
+    "amount": "Amount",
+    "transaction_id": "Transaction ID",
+    "payment_method": "Payment Method",
+    "payment_status": "Payment Status",
+    "date": "Date",
+    "seat": "Seat"
+  },
+  "profile": {
+    "name": "Name",
+    "name_placeholder": "Enter name",
+    "phone": "Phone",
+    "phone_placeholder": "Enter phone",
+    "email": "Email",
+    "email_placeholder": "Enter email",
+    "edit_profile": "Edit Profile",
+    "submit": "Submit"
+  },
+  "change_password": {
+    "current_password": "Change Password",
+    "new_password": "New Password",
+    "confirm_new_password": "Confirm New Password",
+    "change_password": "Change Password"
+  },
+  "promotion": {
+    "header": "Promotion",
+    "inputLabel": "Existing Promotion",
+    "buttonText": "Update Promotion"
+  },
+  "extra": {
+    "search": "Search...",
+    "delete_modal_title": " Are You Sure You want to Delete This?",
+    "block_modal_title": " Are You Sure You want to Block?",
+    "unblock_modal_title": " Are You Sure You want to Unblock?",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "block": "Block",
+    "unblock": "Unblock",
+    "all_notifications": "All Notifications",
+    "save": "Save"
+  }
+}

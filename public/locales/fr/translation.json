@@ -1,0 +1,230 @@
+{
+  "signIn": {
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "title": "Connexion au compte!",
+    "info": "Veuillez entrer votre adresse email et votre mot de passe pour continuer.",
+    "forgot_password": "Mot de passe oublé?",
+    "sign_in": "Se Connecter"
+  },
+  "fortgotPassword": {
+    "email": "E-mail",
+    "title": "Mot de passe oublé",
+    "info": "Entrez votre adresse email pour obtenir un code de verification pour modifier votre mot de passe.",
+    "back": "Retourner vers la connexion",
+    "button": "Envoyer"
+  },
+  "verifyOTP": {
+    "title": "Verifier OTP",
+    "info": "Veuillez verifier votre email. Nous avons envoyé un code",
+    "button": "Verifier OTP",
+    "didnt_receive": "Code non reçu?",
+    "resend": "Cliquez ici pour renvoyer"
+  },
+  "updatePassword": {
+    "title": "Modifier le mot de passe",
+    "button": "Modifier le mot de passe",
+    "new_password": "Nouveau mot de passe",
+    "confirm_password": "Confirmer le mot de passe"
+  },
+  "sidebar": {
+    "overview": "Aperçu",
+    "users": "Utilisateurs",
+    "category": "Catégorie",
+    "event": "Événement",
+    "review": "Avis",
+    "earning": "Gains",
+    "profile": "Profil",
+    "setting": "Paramètres",
+    "contact-us": "Contactez-nous",
+    "change-password": "Changer le mot de passe",
+    "promotion": "Promotion",
+    "logout": "Se Déconnecter"
+  },
+  "topbar": {
+    "see_more": "Voir plus"
+  },
+  "dashboard": {
+    "total_user": "Utilisateur total",
+    "total_earning": "Gain total",
+    "user_ratio": "Ratio des utilisateurs",
+    "users": "Utilisateurs",
+    "earning": "Revenus",
+    "recent_activity": "Activité récente",
+    "view_all": "Voir tout",
+    "recent_all_users": "Tous les utilisateurs récents"
+  },
+  "user_table": {
+    "full_name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "gender": "Genre",
+    "role": "Rôle",
+    "joining_date": "Date d'adhésion",
+    "action": "Action"
+  },
+  "user_details": {
+    "personal_information": "Informations personnelles",
+    "user_details": "Détails de l'utilisateur",
+    "see_all_details": "Voir tous les détails de",
+    "full_name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "gender": "Genre",
+    "role": "Rôle",
+    "remove_admin": "Retirer l'administrateur",
+    "make_admin": "Faire administrateur",
+    "title": "Êtes-vous sûr de vouloir",
+    "remove_text": "Retirer cet utilisateur de l'administrateur",
+    "make_text": "Faire de cet utilisateur un administrateur",
+    "type": "Type",
+    "to_confirm": "pour confirmer votre action",
+    "confirm": "Confirmer"
+  },
+  "category": {
+    "categories": "Catégories",
+    "add_category": "Ajouter une catégorie",
+    "action": "Action"
+  },
+  "category_table": {
+    "category_name": "Nom de la catégorie",
+    "category_image": "Image de la catégorie",
+    "action": "Action"
+  },
+  "event": {
+    "events": "Événements",
+    "add_event": "Créer un événement"
+  },
+  "event_form": {
+    "event_image": "Image de l'événement",
+    "event_name": "Nom de l'événement",
+    "category": "Catégorie",
+    "date": "Date",
+    "select_time": "Sélectionner l'heure",
+    "location": "Lieu",
+    "tribune": "Prix",
+    "annexe_loge": "Loge Annexe",
+    "loge_vip": "Loge VIP",
+    "loge_vvip": "Loge VVIP",
+    "service_fee": "Frais de service",
+    "processing_fee": "Frais de traitement",
+    "event_name_placeholder": "Entrez le nom de l'événement",
+    "category_placeholder": "Entrez la catégorie",
+    "date_placeholder": "Sélectionnez la date de l'événement",
+    "select_time_placeholder": "Sélectionnez l'heure de l'événement",
+    "location_placeholder": "Entrez le lieu",
+    "head_to_head": "Tête à tête",
+    "head_to_head_placeholder": "Entrez les détails du tête à tête",
+    "tribune_heading": "Tribune",
+    "annexeLoge_heading": "Loge Annexe",
+    "logeVVIP_heading": "Loge VVIP",
+    "logeVIP_heading": "Loge VIP",
+    "tribune_placeholder": "Entrez le prix de la Tribune",
+    "annexe_loge_placeholder": "Entrez les détails de la loge annexe",
+    "loge_vip_placeholder": "Entrez les détails de la loge VIP",
+    "loge_vvip_placeholder": "Entrez les détails de la loge VVIP",
+    "service_fee_placeholder": "Entrez les frais de service",
+    "processing_fee_placeholder": "Entrez les frais de traitement",
+    "create": "Créer",
+    "update": "Mettre à jour"
+  },
+  "event_table": {
+    "event_name": "Nom de l'événement",
+    "category": "Catégorie",
+    "date_time": "Date et Heure",
+    "location": "Emplacement",
+    "head_to_head": "Tête à tête",
+
+    "ticket_prices": "Prix des billets",
+    "service_fee": "Frais de service",
+    "processing_fee": "Frais de traitement",
+    "action": "Action"
+  },
+  "event_details": {
+    "title": "Détails de l'événement",
+    "subtitle": "Voir tous les détails à propos de {{name}}",
+    "information": "Informations",
+    "event_name": "Nom de l'événement",
+    "category": "Catégorie",
+    "date": "Date",
+    "time": "Heure",
+    "location": "Lieu",
+    "ticket_prices": "Prix des billets",
+    "tribune": "Tribune",
+    "annexe_loge": "Loge Annexe",
+    "loge_vip": "Loge VIP",
+    "loge_vvip": "Loge VVIP",
+    "price": "Prix",
+    "service_fee": "Frais de service",
+    "processing_fee": "Frais de traitement"
+  },
+  "review_table": {
+    "uid": "Identifiant unique",
+    "full_name": "Nom complet",
+    "email": "E-mail",
+    "date": "Date",
+    "rating": "Note",
+    "review": "Critique",
+    "action": "Action"
+  },
+  "review_detail": {
+    "feedback": "Retour utilisateur",
+    "see_all_details": "Voir tous les détails du retour de jolarol"
+  },
+  "transaction_table": {
+    "uid": "#UID",
+    "full_name": "Nom Complet",
+    "email": "E-mail",
+    "event_name": "Nom de l'Événement",
+    "amount": "Montant",
+    "transaction_id": "ID de la Transaction",
+    "payment_status": "Statut du Paiement",
+    "action": "Action"
+  },
+  "earning_details": {
+    "title": "Détails des Gains",
+    "see_full_details": "Voir les détails complets des gains de jolarol",
+    "name": "Nom",
+    "email": "E-mail",
+    "event_name": "Nom de l'événement",
+    "amount": "Montant",
+    "transaction_id": "ID de la transaction",
+    "payment_method": "Méthode de paiement",
+    "payment_status": "Statut du paiement",
+    "date": "Date",
+    "seat": "Siège"
+  },
+  "profile": {
+    "name": "Nom",
+    "name_placeholder": "Entrez le nom",
+    "phone": "Téléphone",
+    "phone_placeholder": "Entrez le numéro de tелефone",
+    "email": "E-mail",
+    "email_placeholder": "Entrez l'email",
+    "edit_profile": "Modifier le profil",
+    "submit": "Soumettre"
+  },
+  "change_password": {
+    "current_password": "Mot de passe actuel",
+    "new_password": "Nouveau mot de passe",
+    "confirm_new_password": "Confirmer le nouveau mot de passe",
+    "change_password": "Changer le mot de passe"
+  },
+  "promotion": {
+    "header": "Promotion",
+    "inputLabel": "Promotion existante",
+    "buttonText": "Mettre à jour la promotion"
+  },
+  "extra": {
+    "search": "Rechercher...",
+    "delete_modal_title": "Êtes-vous sûr de vouloir supprimer ceci ?",
+    "block_modal_title": "Êtes-vous sûr de vouloir bloquer ceci ?",
+    "unblock_modal_title": "Êtes-vous sûr de vouloir débloquer ceci ?",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "block": "Bloquer",
+    "unblock": "Débloquer",
+    "all_notifications": "Toutes les notifications",
+    "save": "Sauvegarder"
+  }
+}
