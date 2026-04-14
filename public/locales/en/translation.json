@@ -30,6 +30,7 @@
   "sidebar": {
     "overview": "overview",
     "users": "Users",
+    "staff": "Staff",
     "category": "Category",
     "event": "Event",
     "review": "Review",
@@ -219,9 +220,25 @@
     "unblock_modal_title": " Are You Sure You want to Unblock?",
     "cancel": "Cancel",
     "delete": "Delete",
+    "create": "Create",
     "block": "Block",
     "unblock": "Unblock",
     "all_notifications": "All Notifications",
     "save": "Save"
+  }
+
+  ,"staff":{
+    "create_staff":"Create Staff",
+    "add_staff":"Add Staff",
+    "select_gender":"Select gender",
+    "male":"Male",
+    "female":"Female",
+    "other":"Other",
+    "full_name_required":"Full name is required",
+    "phone_required":"Phone is required",
+    "email_required":"Email is required",
+    "email_invalid":"Enter a valid email",
+    "password_required":"Password is required",
+    "password_min":"Minimum 8 characters"
   }
 }

@@ -23,7 +23,7 @@ const DeleteModal: React.FC<DeleteModalProps<any>> = ({
     <Modal
       // title="Confirm Delete"
       open={isDeleteModalVisible}
-      onOk={handleDelete}
+      onOk={() => handleDelete(currentRecord)}
       onCancel={handleCancel}
       okText="delete"
       cancelText="Cancel"

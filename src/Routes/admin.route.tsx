@@ -10,6 +10,7 @@ import earningLogo from "/images/dashboard-logo/earning.svg";
 import AdminDashboard from "../pages/Admin/AdminDashboard";
 import Notifications from "../pages/Common/Notifications";
 import AdminAllUsers from "../pages/Admin/AdminAllUsers";
+import AdminAllStaff from "../pages/Admin/AdminAllStaff";
 import AdminAllReview from "../pages/Admin/AdminAllReview";
 import AdminAllCategory from "../pages/Admin/AdminAllCategory";
 import AdminAllEvent from "../pages/Admin/AdminAllEvent";
@@ -33,6 +34,13 @@ export const adminPaths = [
     element: <AdminAllUsers />,
     key: "users",
     name: "Users",
+    icon: usersLogo,
+  },
+  {
+    path: "staff",
+    element: <AdminAllStaff />,
+    key: "staff",
+    name: "Staff",
     icon: usersLogo,
   },
 

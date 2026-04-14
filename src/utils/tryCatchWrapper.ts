@@ -12,12 +12,17 @@ const tryCatchWrapper = async (
   try {
     // Call the async function
     let req;
-    if (reqData.body && reqData?.params) {
-      req = { body: reqData.body, params: reqData.params };
-    } else if (reqData?.body) {
-      req = { body: reqData.body };
-    } else if (reqData?.params) {
-      req = { params: reqData.params };
+    if (reqData && typeof reqData === "object" && (reqData.body || reqData.params)) {
+      if (reqData.body && reqData?.params) {
+        req = { body: reqData.body, params: reqData.params };
+      } else if (reqData?.body) {
+        req = { body: reqData.body };
+      } else if (reqData?.params) {
+        req = { params: reqData.params };
+      }
+    } else if (reqData !== undefined) {
+      // Primitive value (e.g., id string/number) — pass through directly
+      req = reqData;
     }
 
     const res = await asyncFunction(req).unwrap();
@@ -34,6 +39,7 @@ const tryCatchWrapper = async (
 
     // Return the actual data
   } catch (error: any) {
+    console.error("tryCatchWrapper caught error:", error);
     toast.error(
       error?.data?.message ||
         error?.error ||

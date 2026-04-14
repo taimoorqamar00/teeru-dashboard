@@ -3,6 +3,7 @@ import ReuseTable from "../../utils/ReuseTable";
 import { Space, Tooltip } from "antd";
 import { MdBlock } from "react-icons/md";
 import { GoEye } from "react-icons/go";
+import { MdDelete } from "react-icons/md";
 import { formetDateAndTime } from "../../utils/dateFormet";
 import { getImageUrl } from "../../helpers/config/envConfig";
 import { CgUnblock } from "react-icons/cg";
@@ -17,6 +18,7 @@ interface AdminAllUsersTableProps {
   showViewModal: (record: IUserType) => void;
   showBlockModal: (record: IUserType) => void;
   showUnblockModal: (record: IUserType) => void;
+  showDeleteModal?: (record: IUserType) => void;
   page: number;
   total: number;
   limit: number;
@@ -29,6 +31,7 @@ const AdminAllUsersTable: React.FC<AdminAllUsersTableProps> = ({
   showViewModal,
   showBlockModal,
   showUnblockModal,
+  showDeleteModal,
   page,
   total,
   limit,
@@ -77,11 +80,13 @@ const AdminAllUsersTable: React.FC<AdminAllUsersTableProps> = ({
       dataIndex: "role",
       key: "role",
       render: (role: string) => {
-        return role === "admin" ? (
-          <span className="text-secondary-color font-semibold">Admin</span>
-        ) : (
-          <span className="text-base-color font-semibold">User</span>
-        );
+        if (role === "admin") {
+          return <span className="text-secondary-color font-semibold">Admin</span>;
+        }
+        if (role === "staff") {
+          return <span className="text-secondary-color font-semibold">Staff</span>;
+        }
+        return <span className="text-base-color font-semibold">User</span>;
       },
       width: 150,
       align: "center",
@@ -125,6 +130,17 @@ const AdminAllUsersTable: React.FC<AdminAllUsersTableProps> = ({
                     onClick={() => showBlockModal(record)}
                   >
                     <MdBlock style={{ fontSize: "24px" }} />
+                  </button>
+                </Tooltip>
+              )}
+              {/* Delete User Tooltip (optional) */}
+              {typeof showDeleteModal === "function" && (
+                <Tooltip placement="right" title="Delete User">
+                  <button
+                    className="!p-0 !bg-transparent !border-none !text-error-color cursor-pointer"
+                    onClick={() => showDeleteModal(record)}
+                  >
+                    <MdDelete style={{ fontSize: "22px" }} />
                   </button>
                 </Tooltip>
               )}

@@ -1,3 +1,19 @@
 th {
   border-bottom: 2px solid #075b5d !important;
 }
+
+/* Add Staff button styling */
+.add-staff-btn {
+  background-color: #507d18 !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  padding: 10px 28px !important;
+  font-size: 20px !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+  border: 1px solid #507d18 !important;
+}
+.add-staff-btn:hover {
+  background-color: #406014 !important;
+  border-color: #406014 !important;
+}
